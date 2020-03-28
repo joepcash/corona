@@ -4,7 +4,9 @@ from scipy.optimize import curve_fit
 import numpy as np
 from datetime import date, timedelta
 import matplotlib.animation as animation
-from tabulate import tabulate
+
+# Look you're on a branch! WAHEY!
+
 plt.rcParams['animation.ffmpeg_path'] = r'C:\ffmpeg\bin\ffmpeg.exe'
 
 data = pd.read_csv("ie_cases_130320.csv")
